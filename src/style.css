@@ -10,6 +10,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   font-family: Futura;
+  box-shadow: 7px 7px 7px rgba(57, 57, 57, 0.2);
 }
 
 h1 {
