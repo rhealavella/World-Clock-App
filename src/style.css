@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  max-width: 600px;
+}
+
+footer {
+  text-align: center;
+}
+#paris {
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+}
+#new-york {
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+}
+#vancouver {
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+}
+#paris-date {
+  font-size: small;
+  font-weight: normal;
+}
+#new-york-date {
+  font-size: small;
+  font-weight: normal;
+}
+#vancouver-date {
+  font-size: small;
+  font-weight: normal;
+}
+
+#paris-time {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#new-york-time {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#vancouver-time {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
