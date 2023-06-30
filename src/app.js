@@ -28,5 +28,13 @@ function updateTime() {
     .format("hh:mm:ss A");
 }
 
+function updateCity(event) {
+  let cityTimezone = event.target.value;
+  console.log(cityTimezone);
+}
+
 updateTime();
 setInterval(updateTime, 1000);
+
+let dropdownSelect = document.querySelector("#dropdown");
+dropdownSelect.addEventListener("change", updateCity);
