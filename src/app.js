@@ -30,7 +30,22 @@ function updateTime() {
 
 function updateCity(event) {
   let cityTimezone = event.target.value;
-  console.log(cityTimezone);
+  let cityTime = moment().tz(cityTimezone);
+  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
+  let citiesElement = document.querySelector("#displayed-cities");
+  citiesElement.innerHTML = `<div class="container">
+        <div class="container text-center">
+          <div class="row row-cols-2">
+            <div class="col" id="city">
+              ${cityName}
+              <br />
+              <p id="city-date">${cityTime.format("ddd, MMM Do YYYY")}</p>
+            </div>
+            <div class="col" id="city-time">${cityTime.format(
+              "hh:mm:ss A"
+            )}</div>
+            </div>
+            </div>`;
 }
 
 updateTime();

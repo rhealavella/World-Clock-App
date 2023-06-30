@@ -71,6 +71,17 @@ footer {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+#city {
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #c5b5d3;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
 #paris-date {
   font-size: small;
   font-weight: normal;
@@ -80,6 +91,11 @@ footer {
   font-weight: normal;
 }
 #vancouver-date {
+  font-size: small;
+  font-weight: normal;
+}
+
+#city-date {
   font-size: small;
   font-weight: normal;
 }
@@ -105,6 +121,17 @@ footer {
   border-bottom-left-radius: 0px;
 }
 #vancouver-time {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #c5b5d3;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#city-time {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
