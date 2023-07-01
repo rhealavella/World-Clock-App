@@ -49,7 +49,7 @@ function updateCity(event) {
             )}</div>
             </div>
             </div>
-            <a  id="home-link" href="/">Home</a>`;
+            <a  id="home-link" href="/">Home 🏡</a>`;
 }
 
 updateTime();
