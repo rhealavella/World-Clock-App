@@ -141,3 +141,13 @@ footer {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
+#home-link {
+  text-align: center;
+  color: #063049;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 20px;
+}
